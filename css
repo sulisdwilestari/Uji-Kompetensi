@@ -1,0 +1,54 @@
+/* gunakan selector pada bagian calculator*/
+.calculator {
+    /* untuk menentukan letak dan ukuran dari calculator yang ingin dibuat*/
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 200px;
+    width: 400px;
+}
+/*selector pada bagian calculator-screen untuk memberi ukuran, tinggi, warna dan jenis font yang digunakan*/
+.calculator-screen {
+    width: 100%;
+    height: 100px;
+    background-color:#786fa6;
+    color: #fff;
+    text-align: right;
+    font-size: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/* selector pada kelas calculator keys dan tentukan lebar yang diinginkan*/
+.calculator-keys {
+    width: 100%;
+}
+/* selector pada class row dan atur tampilan tombol menjadi flexibel*/
+.row {
+    display: flex;
+}
+/* selector pada bagian botton untuk memberi warna ukuran, dan warna latar belakang*/
+button {
+    height: 80px;
+    background-color:#f19066;
+    border: 1px solid black;
+    font-size: 32px;
+    color: #fff;
+    width: 25%;
+    outline: none;
+}
+/* pada selector pada kelas all-clear dibedakan lebar nya menjadi lebih besar*/
+.all-clear, .zero-btn {
+    width: 50%;
+}
+/*pada selector bagian kelas operator dan kelas equal sign diberi warna latar belakang*/
+.operator, .equal-sign {
+    background-color: #596275;
+}
+/* untuk memunculkan tombol ketika diklik akan timbul dan berubah warna gunakan hover*/
+button:hover {
+    background-color: #e15f41;
+}
+/*pada selector operator dan equal sign juga diberikan efek timbul dan muncul warna ketika tombol diklik*/
+.operator:hover, .equal-sign:hover {
+    background-color: #303952;
+}
