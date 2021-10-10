@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<!--Tambahkan Struktur HTML dan Deklarasikan tag HTML, Head dan Body-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <!---Beri Judul atau Penamaan yang sesuai-->
+    <title>Calculator</title>
+    <!--hubungkan HTML dengan CSS untuk memperindah kalkulator yang dibuat-->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <!--buat tag div dengan class kalkulator-->
+    <div class="calculator">
+        <!---masukkan input untuk memberikan nilai nol pada form input tambahkan disable untuk melarang penggunaan keyboard anda-->
+        <input type="text" class="calculator-screen" value="0" disabled>
+        <!--buat tag div dengan class calculator keys atau untuk membuat tombol-tombol pada kalkulator -->
+        <div class="calculator-keys">
+            <!--buat div dengan class row untuk menunjukkan tombol yang dibutuhkan perbaris-->
+            <div class="row">
+                <button class="all-clear">AC</button>
+                <button class="percentage">%</button>
+                <button class="operator" value="/">&divide;</button>
+            </div>
+            <div class="row">
+                <button class="number" value="7">7</button>
+                <button class="number" value="8">8</button>
+                <button class="number" value="9">9</button>
+                <button class="operator" value="*">&times;</button>
+            </div>
+            <div class="row">
+                <button class="number" value="4">4</button>
+                <button class="number" value="5">5</button>
+                <button class="number" value="6">6</button>
+                <button class="operator" value="-">-</button>
+            </div>
+            <div class="row">
+                <button class="number" value="1">1</button>
+                <button class="number" value="2">2</button>
+                <button class="number" value="3">3</button>
+                <button class="operator" value="+">+</button>
+            </div>
+            <div class="row">
+                <button class="number zero-btn" value="0">0</button>
+                <button class="decimal" value=".">.</button>
+                <button class="equal-sign">=</button>
+            </div>
+        </div>
+    </div>
+    <!--hubungkan struktur HTML ke java script -->
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
